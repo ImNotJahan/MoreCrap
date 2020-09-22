@@ -11,3 +11,4 @@ So far I've added the following tools:
 * Wooden pickaxes and axes
 * Dirt pickaxes, axes, and broadswords
 * Sand pickaxes, axes, and broadswords
+* Ebonstone pickaxes, axes, and broadswords
