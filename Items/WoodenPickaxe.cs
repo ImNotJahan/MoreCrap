@@ -6,7 +6,7 @@ using static Terraria.ModLoader.ModContent;
 
 namespace MoreCrap.Items
 {
-	public class DirtPickaxe : ModItem
+	public class WoodenPickaxe : ModItem
 	{
 		public override void SetDefaults() {
 			item.damage = 3;
