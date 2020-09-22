@@ -19,7 +19,7 @@ namespace MoreCrap.Items
 			item.height = 40;
 			item.useTime = 25;
 			item.useAnimation = 25;
-			item.pick = 7;
+			item.pick = 35;
 			item.useStyle = ItemUseStyleID.SwingThrow;
 			item.knockBack = 2;
 			item.value = 10000;

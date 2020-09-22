@@ -4,9 +4,9 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace ExampleMod.Items
+namespace MoreCrap.Items
 {
-	public class ExampleHamaxe : ModItem
+	public class DirtAxe : ModItem
 	{
 		public override void SetStaticDefaults() {
 			Tooltip.SetDefault("How this doesn't fall apart is a  mystery.");
