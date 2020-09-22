@@ -6,16 +6,16 @@ using static Terraria.ModLoader.ModContent;
 
 namespace MoreCrap.Items
 {
-	public class PearlstoneAxe : ModItem
+	public class GranitePickaxe : ModItem
 	{
 		public override void SetDefaults() {
-			item.damage = 7;
+			item.damage = 4;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
-			item.useTime = 20;
-			item.useAnimation = 20;
-			item.axe = 7;
+			item.useTime = 30;
+			item.useAnimation = 30;
+			item.pick = 40;
 			item.useStyle = ItemUseStyleID.SwingThrow;
 			item.knockBack = 3;
 			item.value = 10000;
@@ -27,7 +27,7 @@ namespace MoreCrap.Items
 		public override void AddRecipes() 
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.PearlstoneBlock, 15);
+			recipe.AddIngredient(ItemID.Granite, 20);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

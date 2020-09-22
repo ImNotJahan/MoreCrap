@@ -9,7 +9,7 @@ namespace MoreCrap.Items
 	public class PearlstonePickaxe : ModItem
 	{
 		public override void SetDefaults() {
-			item.damage = 5;
+			item.damage = 6;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;

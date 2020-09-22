@@ -3,11 +3,11 @@ using Terraria.ModLoader;
 
 namespace MoreCrap.Items
 {
-	public class PearlstoneSword : ModItem
+	public class GraniteSword : ModItem
 	{
 		public override void SetDefaults() 
 		{
-			item.damage = 12;
+			item.damage = 10;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
@@ -24,7 +24,7 @@ namespace MoreCrap.Items
 		public override void AddRecipes() 
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.PearlstoneBlock, 7);
+			recipe.AddIngredient(ItemID.Granite, 7);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
