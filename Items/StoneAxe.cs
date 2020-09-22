@@ -8,10 +8,6 @@ namespace MoreCrap.Items
 {
 	public class StoneAxe : ModItem
 	{
-		public override void SetStaticDefaults() {
-			Tooltip.SetDefault("How this doesn't fall apart is a  mystery.");
-		}
-
 		public override void SetDefaults() {
 			item.damage = 5;
 			item.melee = true;

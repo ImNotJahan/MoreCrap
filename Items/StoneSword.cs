@@ -5,11 +5,6 @@ namespace MoreCrap.Items
 {
 	public class StoneSword : ModItem
 	{
-		public override void SetStaticDefaults() 
-		{
-			Tooltip.SetDefault("How this doesn't fall apart is a  mystery.");
-		}
-
 		public override void SetDefaults() 
 		{
 			item.damage = 10;
