@@ -9,3 +9,4 @@ So far I've added the following tools:
 * Stone pickaxes, axes, and broadswords
 * Wooden pickaxes and axes
 * Dirt pickaxes, axes, and broadswords
+* Sand pickaxes, axes, and broadswords
