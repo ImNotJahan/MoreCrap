@@ -15,3 +15,4 @@ So far I've added the following tools:
 * Crimstone pickaxes, axes, and broadswords
 * Pearlstone pickaxes, axes, and broadswords
 * Granite pickaxes, axes, and broadswords
+* Marble pickaxes, axes, and broadswords
